@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray background color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the body covers the entire viewport height */
+}
+
+.container {
+  background-color: #ffffff; /* White background color for container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.displaytodos {
+  max-width: 500px; /* Increased max-width for better layout on larger screens */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: #45a049;
+}
+
+.todo-input {
+  width: 70%; /* Subtracting padding */
+  margin: 0 auto; /* Centering horizontally */
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; /* Distribute cards evenly horizontally */
+}
+
+.card {
+  flex: 0 1 calc(48% - 10px); /* Set width of card to approximately 48% with margin */
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  margin-bottom: 10px;
+}
+
+.btns button {
+  margin-right: 5px;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btns button:hover {
+  background-color: #c62828;
+}
+
+.completed {
+  color: green;
+  font-weight: bold;
+}
+
+textarea {
+  width: 20px; 
+  margin: 10px; 
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+
+
+
+.in{
+  width: 70%; 
+  margin:  auto; 
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
